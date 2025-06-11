@@ -30,7 +30,7 @@ end
 module Proj4
   module FFIProj4
     class << self
-      def self.version
+      def version
         begin
           FFIProj4.pj_get_release
         rescue
