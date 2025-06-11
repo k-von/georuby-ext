@@ -1,4 +1,4 @@
-# require 'ffi-proj4'
+require 'ffi-proj4'
 require 'geo_ruby'
 require 'geokit'
 require 'rgeo'
