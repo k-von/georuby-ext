@@ -28,7 +28,6 @@ class Proj4::Projection
 end
 
 module Proj4
-  module FFIProj4
     class << self
       def version
         begin
@@ -38,5 +37,4 @@ module Proj4
         end
       end
     end
-  end
 end
