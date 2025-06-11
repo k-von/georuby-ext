@@ -26,3 +26,14 @@ class Proj4::Projection
   end
 
 end
+
+class Proj4::FFIProj4
+
+  def self.version
+    begin
+      FFIProj4.pj_get_release
+    rescue
+      puts "FFIProj4.pj_get_release does not exist, make sure you have all the appropriate libraries installed."
+    end
+  end
+end
